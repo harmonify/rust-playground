@@ -7,17 +7,24 @@
 #![allow(unused_assignments)]
 #![allow(dead_code)]
 
-mod data_types;
+mod basic;
+mod variables;
 mod concepts;
+mod utilities;
 
 fn main() {
-    println!("Hello, world!\n");
+    // println!("Hello, world!\n");
 
-    // data_types::primitive_types::primitive_types();
-    // data_types::arrays::arrays();
-    // data_types::tuple::tuple();
+    // basic::printing::run();
 
-    concepts::ownership_and_borrowing::owned_pointer();
-    concepts::ownership_and_borrowing::reference();
-    concepts::ownership_and_borrowing::mutable_reference();
+    // utilities::greet::run(None);
+    // utilities::greet::run(Some("John"));    
+
+    variables::primitive_types::run();
+    // variables::arrays::run();
+    // variables::tuple::run();
+
+    // concepts::ownership_and_borrowing::owned_pointer();
+    // concepts::ownership_and_borrowing::reference();
+    // concepts::ownership_and_borrowing::mutable_reference();
 }

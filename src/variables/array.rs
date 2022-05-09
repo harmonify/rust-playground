@@ -1,4 +1,4 @@
-pub fn array() {
+pub fn run() {
     // static array
     let static_array: [i32; 5] = [4, 2, 6, 8, 10];
 
