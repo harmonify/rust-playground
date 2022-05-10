@@ -31,4 +31,6 @@ pub fn run() {
 
     // Placeholder for debug trait
     println!("{:?}\n", (12, true, "Hello!")); 
+    // pretty print
+    println!("{:#?}", (12, true, "Hello!"));
 }
