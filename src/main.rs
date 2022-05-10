@@ -8,19 +8,21 @@
 #![allow(dead_code)]
 
 mod basic;
-mod variables;
 mod concepts;
 mod utilities;
+mod variables;
 
 fn main() {
     // println!("Hello, world!\n");
 
     // basic::printing::run();
+    basic::user_input::greet_name();
+    // basic::user_input::input_abc();
 
     // utilities::greet::run(None);
-    // utilities::greet::run(Some("John"));    
+    // utilities::greet::run(Some("John"));
 
-    variables::primitive_types::run();
+    // variables::primitive_types::run();
     // variables::arrays::run();
     // variables::tuple::run();
 
