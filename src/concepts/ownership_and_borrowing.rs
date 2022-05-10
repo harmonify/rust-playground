@@ -29,10 +29,6 @@ pub fn reference() {
     println!("Owner after reassignment: {}\n", owner); // `owner` is freed after this line
 }
 
-/// Notes:
-/// Note that this is only an example. In general, it is
-/// recommended to obey the functional programming rules which
-/// is `pure` and `immutable`.
 pub fn mutable_reference() {
     // Mutable reference
     // While a value is mutably borrowed, it cannot be accessed at all.
