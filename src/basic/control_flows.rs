@@ -2,7 +2,7 @@
 
 pub fn run() {
     // `if` statement
-    let age: u8 = 20;
+    let age: u32 = 20;
     if age >= 21 {
         println!("You can drink");
     } else if age == 20 {

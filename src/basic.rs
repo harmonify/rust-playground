@@ -14,4 +14,8 @@ pub mod control_flows;
 
 pub mod functions;
 
+pub mod structs;
+
+pub mod enums;
+
 pub mod user_inputs;
