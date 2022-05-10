@@ -6,25 +6,31 @@
 #![allow(unused_variables)]
 #![allow(unused_assignments)]
 #![allow(dead_code)]
+#![allow(clippy::needless_return)]
 
 mod basic;
 mod concepts;
 mod utilities;
-mod variables;
 
 fn main() {
     // println!("Hello, world!\n");
 
-    // basic::printing::run();
-    basic::user_input::greet_name();
-    // basic::user_input::input_abc();
+    // basic::printings::run();
+
+    // basic::primitive_types::run();
+    // basic::arrays::run();
+    // basic::tuples::run();
+    // basic::common_types::run();
+
+    // basic::control_flows::run();
+
+    basic::functions::run();
+    
+    // basic::user_inputs::greet_name();
+    // basic::user_inputs::input_abc();
 
     // utilities::greet::run(None);
     // utilities::greet::run(Some("John"));
-
-    // variables::primitive_types::run();
-    // variables::arrays::run();
-    // variables::tuple::run();
 
     // concepts::ownership_and_borrowing::owned_pointer();
     // concepts::ownership_and_borrowing::reference();
