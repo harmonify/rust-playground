@@ -10,7 +10,7 @@
 
 mod basic;
 mod concepts;
-mod utilities;
+mod examples;
 
 fn main() {
     // println!("Hello, world!\n");
@@ -23,14 +23,16 @@ fn main() {
     // basic::common_types::run();
 
     // basic::control_flows::run();
+    // basic::functions::run();
+    // basic::structs::run();
+    // basic::enums::run();
 
-    basic::functions::run();
-    
     // basic::user_inputs::greet_name();
     // basic::user_inputs::input_abc();
 
-    // utilities::greet::run(None);
-    // utilities::greet::run(Some("John"));
+    // examples::greet::run(None);
+    // examples::greet::run(Some("John"));
+    examples::game_2d_with_enum_struct::run();
 
     // concepts::ownership_and_borrowing::owned_pointer();
     // concepts::ownership_and_borrowing::reference();
